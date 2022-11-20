@@ -53,17 +53,17 @@ Usage
 ----
 
 **To run the I-DNAN6mA**
-### run: python main.py -test_data test path -result_path result path
+### run: python main.py -train_data train path -test_data test path
 ~~~
     For example:
-    python main_GPU(_CPU).py -test_path /DNAN6mAsites/dataset/A.thaliana_test.xlsx -result_path ./result.csv
+    python main.py -train_data /DNAN6mAsites/dataset/A.thaliana_test.xlsx -test_data /DNAN6mAsites/dataset/A.thaliana_test.xlsx
 ~~~
 
 Datasets
 ----
 
 The following benchmark datasets ware used for Ense-i6mA:
-[Datasets](https://github.com/XueQiangFan/Ense-i6mA/tree/main/Benchmark%20datasets)
+[Datasets](https://github.com/XueQiangFan/Ense-i6mA/tree/main/Dataset)
 
 Citation guide
 ----
