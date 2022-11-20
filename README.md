@@ -1,4 +1,4 @@
-Ense-i6mA: *identification of DNA N6-methyladenine sites using XGB-RFE feature selection and ensemble machine learning.*
+Ense-i6mA: *Identification of DNA N6-methyladenine Sites Using XGB-RFE Feature Selection and Ensemble Machine Learning.*
 ====
 
 Contents
@@ -38,7 +38,7 @@ Installation
 To install Ense-i6mA and it's dependencies following commands can be used in terminal:
 
 1. `git clone https://github.com/XueQiangFan/Ense-i6mA.git`
-2. `cd I-DNAN6mA`
+2. `cd Ense-i6mA`
 
 Either follow **virtualenv** column steps or **conda** column steps to create virtual environment and to install Ense-i6mA dependencies given in table below:<br />
 
@@ -46,13 +46,13 @@ Either follow **virtualenv** column steps or **conda** column steps to create vi
 | :- | :--- |
 | 3. |  `conda create -n venv python=3.7` |
 | 4. |  `conda activate venv` | 
-| 5. |  *To run Ense-i6mA on CPU:*<br /> <br /> `conda install pytorch torchvision torchaudio cpuonly -c pytorch` <br /> <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *or* <br /> <br />*To run I-DNAN6mA on GPU:*<br /> <br /> `conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch` |
+| 5. |  *To run Ense-i6mA on CPU:*<br /> <br /> `conda install pytorch torchvision torchaudio cpuonly -c pytorch` <br /> <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *or* <br /> <br />*To run Ense-i6mA on GPU:*<br /> <br /> `conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch` |
 | 6. | `while read p; do conda install --yes $p; done < requirements.txt` | 
 
 Usage
 ----
 
-**To run the I-DNAN6mA**
+**To run the Ense-i6mA**
 ### run: python main.py -train_data train path -test_data test path
 ~~~
     For example:
