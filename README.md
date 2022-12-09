@@ -70,7 +70,7 @@ Citation guide
 
 **If you use Ense-i6mA for your research please cite the following papers:**
 
-[1] Xue-Qiang Fan, Bing Lin, Jun Hu*, and Zhong-Yi Guo*. Ense-i6mA: identification of DNA N6-methyladenine sites using XGB-RFE feature selection and ensemble machine learning. sumitted.
+[1] Xue-Qiang Fan, Bing Lin, Jun Hu*, and Zhong-Yi Guo*. Ense-i6mA: identification of DNA N6-methyladenine sites using XGB-RFE feature selection and ensemble machine learning. Transactions on Computational Biology and Bioinformatics, sumitted.
 
 Licence
 ----
